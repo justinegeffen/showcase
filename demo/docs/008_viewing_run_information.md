@@ -1,4 +1,4 @@
-# Run Information
+# Run information
 
 When you launch a pipeline, you're navigated to the **Runs** tab which contains all executed workflows. Your submitted run is at the top of the list. 
 
