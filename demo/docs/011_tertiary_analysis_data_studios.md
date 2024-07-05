@@ -22,9 +22,9 @@ Select the three dots menu to:
 
 ## Analyse RNAseq data in Data Studios
 
-You can use Data Studios to perform bespoke analysis on the results of upstream workflows. For example, we can run the nf-core/rnaseq workflow to quantify gene expression, followed by nf-core/differentialabundance to derive differential expression statistics, and then use Data Studios to interrogate and visualize the results of those analyses. 
+You can use Data Studios to perform bespoke analysis on the results of upstream workflows. For example, you can run the nf-core/rnaseq workflow to quantify gene expression, followed by nf-core/differentialabundance to derive differential expression statistics, and then use Data Studios to interrogate and visualize the results of those analyses. 
 
-As an example, we have run RNAseq results through the nf-core/differentialabundance pipeline and created a new data studio session with these results from the cloud mounted into the session to perform further analysis. One of these outputs is a Shiny application, which we can deploy for interactive analysis.
+As an example, in this example RNAseq results have been run through the nf-core/differentialabundance pipeline and a new data studio session was created with these results from the cloud mounted into the session to perform further analysis. One of these outputs is a Shiny application, which can be deployed for interactive analysis.
 
 
 /// details | Presenter's Note
