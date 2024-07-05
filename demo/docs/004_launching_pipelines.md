@@ -41,7 +41,7 @@ Adjust the following Platform-specific options if needed:
 
 - `Labels`:
 
-    Assign new or existing labels to the run. For example, Project ID or genome version.
+    Assign new or existing labels to the run. For example, project ID or genome version.
 
 Each pipeline including nf-core/rnaseq will have its own set of parameters that need to be provided in order to run it. The following parameters are mandatory:
 
@@ -61,7 +61,7 @@ Each pipeline including nf-core/rnaseq will have its own set of parameters that 
     /// details | Advanced
         type: info    
         
-    Users can upload their own samplesheets and make them available as a dataset in the 'Datasets' tab. See [Add a dataset](./006_adding_a_dataset.md).
+    Users can upload their own samplesheets and make them available as a dataset in the **Datasets** tab. See [Add a dataset](./006_adding_a_dataset.md).
     ///
 
 - `outdir`:
@@ -77,6 +77,6 @@ Each pipeline including nf-core/rnaseq will have its own set of parameters that 
     ![Output parameters](assets/sp-cloud-launch-parameters-outdir.gif)
     ///
 
-Users can easily modify and specify other parameters to customize the pipeline execution through the parameters form. For example, in the **Read trimming options** section of the parameters page, change the `trimmer` to select `fastp` in the dropdown menu, instead of `trimgalore`, and select **Launch** button.
+Users can easily modify and specify other parameters to customize the pipeline execution through the parameters form. For example, in the **Read trimming options** section of the parameters page, change the `trimmer` to select `fastp` in the dropdown menu, instead of `trimgalore`, and select **Launch**.
 
 ![Read trimming options](./assets/trimmer-settings.png)
